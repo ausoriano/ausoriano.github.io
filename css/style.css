@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(#00000005, #00000005), url(./images/back1.jpg);
+  background-attachment: scroll;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item img {
+  height: 100vh !important;
+}
+footer {
+  margin-top: 25px;
+  background: orange;
+  padding: 1px;
+}
+
+header {
+  height: 100vh;
+}
+.image {
+  width: 130px;
+  margin-left: 2rem;
+}
+.carousel-item h2 {
+  color: orange;
+}
+.btn {
+  margin-right: 2rem;
+}
+/* .navbar {
+  background-attachment: fixed;
+} */
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    background-position: 68%;
+  }
+}

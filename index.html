@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f9c1e1e1ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>GRAPico-PrintAds- Home</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/textgpico.png" class="image"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" aria-current="page" href="./pages/about.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="./pages/products.html"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="./pages/contact.html"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="btn nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#login"
+                >Login</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Type to Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="login" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark-subtle">
+          <div class="modal-header">
+            <img src="./images/textgpico.png" alt="#" class="w-50" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead"></p>
+            <form action="process.php">
+              <div class="mb-3">
+                <label for="username/email" class="col-form-label"
+                  >Username/Email</label
+                >
+                <input type="text" class="form-control" id="username/email" />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="col-form-label">Password</label>
+                <input type="password" class="form-control" id="last_name" />
+              </div>
+            </form>
+          </div>
+          <button
+            type="submit"
+            class="btn text-white align-self-center"
+            id="loginbtn"
+          >
+            Login
+          </button>
+          <div class="align-self-center mt-3" id="forgotpw">
+            <a href="#">Forgot Password?</a><br />
+          </div>
+          <div class="align-self-center mt-3" id="signup">
+            <p>Don't have an account? <a href="#">Sign Up Here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/item1.jpg" class="d-block w-100 h-75" alt="..." />
+        </div>
+        <div class="carousel-item img-fluid">
+          <img src="./images/item10.jpg" class="d-block w-100 h-75" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/item12.jpg" class="d-block w-100 h-75" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer class="text-center sticky-bottom">
+      <p>Copyright &copy; 2023 All right reserved by GRAPico- PrintAds Inc.</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

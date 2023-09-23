@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(#00000005, #00000005), url(../images/back1.jpg);
+  background-attachment: scroll;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  margin-top: 30px;
+}
+
+.image {
+  width: 130px;
+  margin-left: 2rem;
+}
+.btn {
+  margin-right: 2rem;
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+
+.about-1 {
+  margin: 30px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.about-1 h1 {
+  text-align: center;
+  color: beige;
+  font-weight: bold;
+}
+
+.about-1 p {
+  text-align: center;
+  padding: 3px;
+  color: #fff;
+}
+.about-item {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: none;
+  padding: 80px, 30px;
+  box-shadow: 5px orange;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+#about-2 {
+  margin-top: 40px;
+}
+
+.about-item i {
+  font-size: 35px;
+  margin: 0;
+  padding: 3px;
+}
+.about-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.about-item hr {
+  width: 80px;
+  height: 3px;
+  background-color: orange;
+  margin: auto;
+  border: none;
+}
+.about-item p {
+  margin-top: 20px;
+}
+.about-item:hover {
+  background-color: orange;
+}
+.about-item:hover i,
+.about-item:hover p,
+.about-item:hover h3 {
+  background-color: none;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover hr,
+.about-item:hover h3 {
+  transition: all 400ms ease-in-out;
+}
+.contact:hover i {
+  transform: translateY(-20px);
+}
+.contact:hover:hover i,
+.contact:hover hr {
+  transition: all 400ms ease-in-out;
+}
+footer {
+  margin-top: 25px;
+  background: orange;
+  padding: 1px;
+}
+h3 {
+  color: whitesmoke;
+}
